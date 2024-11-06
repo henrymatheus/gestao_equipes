@@ -1,7 +1,7 @@
-## Sumário
+# Sumário
 - [Diagrama de Casos de Uso](#diagrama-de-casos-de-uso)
 - [Documentação dos casos de uso](#documentação-dos-casos-de-uso)
-  - [Enviar Orçamentos](#documentação-dos-casos-de-uso)
+  - [Enviar Orçamentos](#enviar-orçamentos)
   - [Caso 2](#sample-section)
   - [Caso 3](#sample-section)
   - [Caso 4](#sample-section)
@@ -17,22 +17,23 @@
 
 ## Documentação dos Casos de Uso
 
+### Enviar Orçamentos
 Especificação funcional do Caso de Uso <br>
 Nome: Enviar orçamentos <br>
 Objetivo: Permitir o envio de orçamentos para deliberação <br>
 Ator: Fiscal de campo
 
-### Cenário principal
+#### Cenário principal
 
 
-### Cenário alternativo
+#### Cenário alternativo
 
 
-### Demais requisitos
+#### Demais requisitos
 
 
 
-### Protótipo do Caso de Uso Enviar Orçamentos
+#### Protótipo do Caso de Uso Enviar Orçamentos
 
 
 
