@@ -2,8 +2,8 @@
 - [Diagrama de Casos de Uso](#diagrama-de-casos-de-uso)
 - [Documentação dos casos de uso](#documentação-dos-casos-de-uso)
   - [Enviar Orçamentos](#enviar-orçamentos)
-  - [Caso 2](#sample-section)
-  - [Caso 3](#sample-section)
+  - [Visualizar Status Dos Orçamentos](#visualizar-status-dos-orçamentos)
+  - [Enviar APR](#enviar-apr)
   - [Caso 4](#sample-section)
   - [Caso 5](#sample-section)
   - [Caso 6](#sample-section)
@@ -19,26 +19,44 @@
 
 ### Enviar Orçamentos
 Especificação funcional do Caso de Uso <br>
-Nome: Enviar orçamentos <br>
 Objetivo: Permitir o envio de orçamentos para deliberação <br>
 Ator: Fiscal de campo
 
 #### Cenário principal
 
-
 #### Cenário alternativo
 
-
 #### Demais requisitos
-
-
 
 #### Protótipo do Caso de Uso Enviar Orçamentos
 
 
+### Visualizar Status Dos Orçamentos
+Especificação funcional do Caso de Uso <br>
+Objetivo: Permitir o envio de orçamentos para deliberação <br>
+Ator: Fiscal de campo
+
+#### Cenário principal
+
+#### Cenário alternativo
+
+#### Demais requisitos
+
+#### Protótipo do Caso de Uso Visualizar Status dos Orçamentos
 
 
+### Enviar APR
+Especificação funcional do Caso de Uso <br>
+Objetivo: Permitir o envio de orçamentos para deliberação <br>
+Ator: Fiscal de campo
 
+#### Cenário principal
+
+#### Cenário alternativo
+
+#### Demais requisitos
+
+#### Protótipo do Caso de Uso Enviar APR
 
 ### Links úteis: 
 - #### Sintaxe básica e formatação de README: https://docs.github.com/pt/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
