@@ -1,14 +1,13 @@
-https://docs.github.com/pt/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
+#### Sintaxe básica e formatação de README: https://docs.github.com/pt/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
 
-## Diagrama de Casos de Uso
 ![Diagrama UML de Casos de Uso](https://github.com/henrymatheus/gestao_equipes/blob/0ae4ca1d0ed88de9f906ab3372656a58cf0ff3c7/docs/Diagrama%20de%20Casos%20de%20Uso.jpg)
 
 
 ## Documentação dos Casos de Uso
 
-Especificação funcional do Caso de Uso
-Nome: Enviar orçamentos
-Objetivo: Permitir o envio de orçamentos para deliberação
+Especificação funcional do Caso de Uso <br>
+Nome: Enviar orçamentos <br>
+Objetivo: Permitir o envio de orçamentos para deliberação <br>
 Ator: Fiscal de campo
 
 ### Cenário principal
