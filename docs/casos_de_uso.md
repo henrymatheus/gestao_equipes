@@ -1,4 +1,15 @@
-#### Sintaxe básica e formatação de README: https://docs.github.com/pt/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
+## Sumário
+- Documentação dos Casos de Uso
+  - [Caso 1](#documentação-dos-casos-de-uso)
+  - [Caso 2](#sample-section)
+  - [Caso 3](#sample-section)
+  - [Caso 4](#sample-section)
+  - [Caso 5](#sample-section)
+  - [Caso 6](#sample-section)
+ 
+
+
+
 
 ![Diagrama UML de Casos de Uso](https://github.com/henrymatheus/gestao_equipes/blob/0ae4ca1d0ed88de9f906ab3372656a58cf0ff3c7/docs/Diagrama%20de%20Casos%20de%20Uso.jpg)
 
@@ -23,5 +34,6 @@ Ator: Fiscal de campo
 ### Protótipo do Caso de Uso Enviar Orçamentos
 
 
-
+### Links úteis: 
+- #### Sintaxe básica e formatação de README: https://docs.github.com/pt/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
 
