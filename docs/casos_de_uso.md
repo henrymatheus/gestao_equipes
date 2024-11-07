@@ -4,9 +4,11 @@
   - [Enviar Orçamentos](#enviar-orçamentos)
   - [Visualizar Status Dos Orçamentos](#visualizar-status-dos-orçamentos)
   - [Enviar APR](#enviar-apr)
-  - [Caso 4](#sample-section)
-  - [Caso 5](#sample-section)
-  - [Caso 6](#sample-section)
+  - [Deliberar Orçamentos](#deliberar-orçamentos)
+  - [Fazer o Custeio das Viagens](#fazer-o-custeio-das-viagens)
+  - [Fazer o Fluxo de Caixa das Equipes](#fazer-o-fluxo-de-caixa-das-equipes)
+  - [Gerenciar Fiscais de Campo](#gerenciar-fiscais-de-campo)
+  - [Gerenciar Viaturas](#gerenciar-viaturas)
  
 
 
@@ -24,24 +26,27 @@ Ator: Fiscal de campo
 
 #### Cenário principal
 1. O sistema exibe os três formulários de <strong> orçamentos </strong> com as seguintes informações:
-  - Gestor (campo somente leitura)
-  - Lider (combobox)
-  - Equipe (campo editável e obrigatório)
-  - Local de trabalho (campo editável e obrigatório)
-  - Data do pedido (campo editável e obrigatório)
-  - Placa (campo editável e obrigatório)
-  - Hodometro (campo editável e obrigatório)
-  - Fornecedor (campo editável e obrigatório)
-  - Dados para pagamento (campo editável e obrigatório)
-  - Produto / serviço (campo editável e obrigatório)
-  - Quantidade (campo editável e obrigatório)
-  - Preço por unidade (campo editável e obrigatório)
-  - Preço total (campo editável e obrigatório)
-  - Total geral (campo editável e obrigatório)
-  - Data do pedido (autopreenchido com a data do envio do orçamento)
-  - Ação "Enviar"
+    - Gestor (campo somente leitura)
+    - Lider (combobox)
+    - Equipe (campo editável e obrigatório)
+    - Local de trabalho (campo editável e obrigatório)
+    - Data do pedido (autopreenchido com a data do envio do orçamento)
+    - Placa (campo editável e obrigatório)
+    - Hodometro (campo editável e obrigatório)
+    - Fornecedor (campo editável e obrigatório)
+    - Dados para pagamento (campo editável e obrigatório)
+    - Produto / serviço (campo editável e obrigatório)
+    - Quantidade (campo editável e obrigatório)
+    - Preço por unidade (campo editável e obrigatório)
+    - Preço total (campo editável e obrigatório)
+    - Total geral (campo editável e obrigatório)
+    - Ação "Enviar"
 2. O usuário informa a equipe e os fiscais.
 3. O usuário informa o local de trabalho, que corresponde a um município.
+4. O usuário escolhe um município de trabalho a partir de uma lista (combobox) com os nomes dos municípios do estado do Pará.
+5. O usuário informa a placa da viatura.
+6. O usuário informa o valor do Hodometro da viatura.
+7. O usuário informa o nome do fornecedor
 (...)
 x. O usuário seleciona a opção "Salvar"
 x. O sitema salva os dados.
@@ -90,6 +95,76 @@ Ator: Fiscal de campo
 #### Demais requisitos
 
 #### Protótipo do Caso de Uso Enviar APR
+
+
+
+### Deliberar Orçamentos
+Especificação funcional do Caso de Uso <br>
+Objetivo: Permitir o envio de orçamentos para deliberação <br>
+Ator: Fiscal de campo
+
+#### Cenário principal
+
+#### Cenário alternativo
+
+#### Demais requisitos
+
+#### Protótipo do Caso de Uso Deliberar Orçamentos
+
+
+### Fazer o Custeio das Viagens
+Especificação funcional do Caso de Uso <br>
+Objetivo: Permitir o envio de orçamentos para deliberação <br>
+Ator: Fiscal de campo
+
+#### Cenário principal
+
+#### Cenário alternativo
+
+#### Demais requisitos
+
+#### Protótipo do Caso de Uso Fazer o Custeio das Viagens
+
+### Fazer o Fluxo de Caixa das Equipes
+Especificação funcional do Caso de Uso <br>
+Objetivo: Permitir o envio de orçamentos para deliberação <br>
+Ator: Fiscal de campo
+
+#### Cenário principal
+
+#### Cenário alternativo
+
+#### Demais requisitos
+
+#### Protótipo do Caso de Uso Fazer o Fluxo de Caixa das Equipes
+
+### Gerenciar Fiscais de Campo
+Especificação funcional do Caso de Uso <br>
+Objetivo: Permitir o envio de orçamentos para deliberação <br>
+Ator: Fiscal de campo
+
+#### Cenário principal
+
+#### Cenário alternativo
+
+#### Demais requisitos
+
+#### Protótipo do Caso de Uso Gerenciar Fiscais de Campo
+
+### Gerenciar Viaturas
+Especificação funcional do Caso de Uso <br>
+Objetivo: Permitir o envio de orçamentos para deliberação <br>
+Ator: Fiscal de campo
+
+#### Cenário principal
+
+#### Cenário alternativo
+
+#### Demais requisitos
+
+#### Protótipo do Caso de Uso Gerenciar Viaturas
+
+
 
 ### Links úteis: 
 - #### Sintaxe básica e formatação de README: https://docs.github.com/pt/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
