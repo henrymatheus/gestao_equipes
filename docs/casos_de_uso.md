@@ -38,20 +38,23 @@ Ator: Fiscal de campo
     - Produto / serviço (campo editável e obrigatório)
     - Quantidade (campo editável e obrigatório)
     - Preço por unidade (campo editável e obrigatório)
-    - Preço total (campo editável e obrigatório)
-    - Total geral (campo editável e obrigatório)
+    - Preço total (campo editável e obrigatório)    /(campo autopreenchido)
+    - Total geral (campo editável e obrigatório)    /(Campo autoprenchido)
     - Ação "Enviar"
 2. O usuário informa a equipe e os fiscais.
 3. O usuário informa o local de trabalho, que corresponde a um município.
 4. O usuário escolhe um município de trabalho a partir de uma lista (combobox) com os nomes dos municípios do estado do Pará.
 5. O usuário informa a placa da viatura.
 6. O usuário informa o valor do Hodometro da viatura.
-7. O usuário informa o nome do fornecedor
-(...)
-x. O usuário seleciona a opção "Salvar"
-x. O sitema salva os dados.
+7. O usuário informa o nome do fornecedor.
+8. O usuário informa a placa da viatura.
+9. O usuário informa o valor que consta no Hodometro
+10. O usuário informa os dados para pagamento (opcional?)
+11. O usuário informa o nome dos produtos que constam no orçamento.
+12. O usuário informa a quantidade de produtos.
+13. O usuário seleciona a opção "Salvar"
+14. O sitema salva os dados.
 
- 
 
 #### Cenário alternativo 
 - Nenhum cenário alternativo identificado.
@@ -59,6 +62,8 @@ x. O sitema salva os dados.
 #### Demais requisitos
 - O sistema não deve permitir a inclusão de orçamentos de um mesmo fornecedor.
 - O sistema não deve permitir o envio de menos de três orçamentos.
+- O campo "Preço Total" irá conter o resultado da multiplicação "Quantidade" * "Preço" por unidade.
+- O campo "Total Geral" irá conter a soma de todos os valores da coluna "Preço Total".
 
 #### Protótipo do Caso de Uso Enviar Orçamentos
 
