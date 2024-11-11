@@ -73,7 +73,7 @@ Ator: Fiscal de campo
 - O campo "Total Geral" irá conter a soma de todos os valores da coluna "Preço Total".
 
 #### Protótipo do Caso de Uso Enviar Orçamentos
-![Enviar orçamentos](https://github.com/henrymatheus/gestao_equipes/blob/c95a29fc662d37dd62b518c2cbe36b319d52ed4c/docs/images/enviar_orcamentos.png)
+![Enviar orçamentos](https://github.com/henrymatheus/gestao_equipes/blob/cd580fd9fcce77dbcb29dd12ec6324d5ecbe501d/docs/images/enviar_orcamentos.png)
 ----------------------------------------------------------------------------------------------
 ### Visualizar Solicitações Pendentes
 Especificação funcional do Caso de Uso <br>
