@@ -22,7 +22,7 @@
 
 ### Página Inicial
 ### Protótipo da Página Inicial
-![Página Inicial](https://github.com/henrymatheus/gestao_equipes/blob/b0092f24517573e8d0a4fbe0b920881cb00442c5/docs/images/Fisc.png)
+![Página Inicial](https://github.com/henrymatheus/gestao_equipes/blob/ad0212bb73edd0c03aeb4b2a79185a13a87b48b5/docs/images/Fisc.png)
 ----------------------------------------------------------------------------------------------
 
 
