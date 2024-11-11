@@ -3,6 +3,7 @@
 - [Documentação dos casos de uso](#documentação-dos-casos-de-uso)
   - [Enviar Orçamentos](#enviar-orçamentos)
   - [Visualizar Solicitações Pendentes](#visualizar-solicitações-pendentes)
+  - [Visualizar Orçamentos Pendentes](#visualizar-orçamentos-pendentes)
   - [Enviar APR](#enviar-apr)
   - [Deliberar Orçamentos](#deliberar-orçamentos)
   - [Fazer o Custeio das Viagens](#fazer-o-custeio-das-viagens)
@@ -67,7 +68,7 @@ Ator: Fiscal de campo
 
 #### Protótipo do Caso de Uso Enviar Orçamentos
 
-
+----------------------------------------------------------------------------------------------
 ### Visualizar Solicitações Pendentes
 Especificação funcional do Caso de Uso <br>
 Objetivo: Permitir a visualização de orçamentos pendentes para aprovação <br>
