@@ -15,7 +15,7 @@
 
 
 ## Diagrama de Casos de Uso
-![Diagrama UML de Casos de Uso](https://github.com/henrymatheus/gestao_equipes/blob/0ae4ca1d0ed88de9f906ab3372656a58cf0ff3c7/docs/images/diagrama_de_casos_de_uso.jpg)
+![Diagrama UML de Casos de Uso](https://github.com/henrymatheus/gestao_equipes/blob/2dcbf9644dcc63a9a010574afa5cdb0a498709ae/docs/images/diagrama_de_casos_de_uso.jpg)
 
 
 ## Documentação dos Casos de Uso
