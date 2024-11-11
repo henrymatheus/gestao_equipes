@@ -20,6 +20,9 @@
 
 ## Documentação dos Casos de Uso
 
+### Página Inicial
+### Protótipo da Página Inicial
+![Página Inicial](https://github.com/henrymatheus/gestao_equipes/blob/b0092f24517573e8d0a4fbe0b920881cb00442c5/docs/Fisc.png)
 ### Enviar Orçamentos
 Especificação funcional do Caso de Uso <br>
 Objetivo: Permitir o envio de orçamentos para deliberação <br>
