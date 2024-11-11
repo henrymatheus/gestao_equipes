@@ -15,7 +15,7 @@
 
 
 ## Diagrama de Casos de Uso
-![Diagrama UML de Casos de Uso](https://github.com/henrymatheus/gestao_equipes/blob/0ae4ca1d0ed88de9f906ab3372656a58cf0ff3c7/docs/Diagrama%20de%20Casos%20de%20Uso.jpg)
+![Diagrama UML de Casos de Uso](https://github.com/henrymatheus/gestao_equipes/blob/0ae4ca1d0ed88de9f906ab3372656a58cf0ff3c7/docs/diagrama_de_casos_de_uso.jpg)
 
 
 ## Documentação dos Casos de Uso
@@ -73,7 +73,7 @@ Ator: Fiscal de campo
 - O campo "Total Geral" irá conter a soma de todos os valores da coluna "Preço Total".
 
 #### Protótipo do Caso de Uso Enviar Orçamentos
-![Enviar orçamentos](https://github.com/henrymatheus/gestao_equipes/blob/c95a29fc662d37dd62b518c2cbe36b319d52ed4c/docs/Enviar%20or%C3%A7amentos.png)
+![Enviar orçamentos](https://github.com/henrymatheus/gestao_equipes/blob/c95a29fc662d37dd62b518c2cbe36b319d52ed4c/docs/enviar_orcamentos.png)
 ----------------------------------------------------------------------------------------------
 ### Visualizar Solicitações Pendentes
 Especificação funcional do Caso de Uso <br>
