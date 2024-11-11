@@ -23,6 +23,9 @@
 ### Página Inicial
 ### Protótipo da Página Inicial
 ![Página Inicial](https://github.com/henrymatheus/gestao_equipes/blob/b0092f24517573e8d0a4fbe0b920881cb00442c5/docs/Fisc.png)
+----------------------------------------------------------------------------------------------
+
+
 ### Enviar Orçamentos
 Especificação funcional do Caso de Uso <br>
 Objetivo: Permitir o envio de orçamentos para deliberação <br>
@@ -70,7 +73,7 @@ Ator: Fiscal de campo
 - O campo "Total Geral" irá conter a soma de todos os valores da coluna "Preço Total".
 
 #### Protótipo do Caso de Uso Enviar Orçamentos
-
+![Enviar orçamentos](https://github.com/henrymatheus/gestao_equipes/blob/c95a29fc662d37dd62b518c2cbe36b319d52ed4c/docs/Enviar%20or%C3%A7amentos.png)
 ----------------------------------------------------------------------------------------------
 ### Visualizar Solicitações Pendentes
 Especificação funcional do Caso de Uso <br>
