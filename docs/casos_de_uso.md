@@ -2,7 +2,7 @@
 - [Diagrama de Casos de Uso](#diagrama-de-casos-de-uso)
 - [Documentação dos casos de uso](#documentação-dos-casos-de-uso)
   - [Enviar Orçamentos](#enviar-orçamentos)
-  - [Visualizar Status Dos Orçamentos](#visualizar-status-dos-orçamentos)
+  - [Visualizar Solicitações Pendentes](#visualizar-solicitações-pendentes)
   - [Enviar APR](#enviar-apr)
   - [Deliberar Orçamentos](#deliberar-orçamentos)
   - [Fazer o Custeio das Viagens](#fazer-o-custeio-das-viagens)
@@ -68,26 +68,64 @@ Ator: Fiscal de campo
 #### Protótipo do Caso de Uso Enviar Orçamentos
 
 
-
-
-
-
-
-
-### Visualizar Status Dos Orçamentos
+### Visualizar Solicitações Pendentes
 Especificação funcional do Caso de Uso <br>
-Objetivo: Permitir o envio de orçamentos para deliberação <br>
+Objetivo: Permitir a visualização de orçamentos pendentes para aprovação <br>
 Ator: Fiscal de campo
 
 #### Cenário principal
-
+1. O sistema exibe o formulário "Solicitações pendentes" contendo as seguintes informações:
+    - Filtro de Equipe (combobox, opcional)
+    - Nome da equipe (campo somente leitura)
+    - Nº de solicitações pendentes (campo somente leitura)
+    - Ação "Visualizar"
+   
 #### Cenário alternativo
+1. Não há solicitações pendentes.
+2. O sistema exibe uma mensagem na tela informando que no momento não existem solicitações pendentes.
 
 #### Demais requisitos
+1. O filtro de equipe deverá dispor dos nomes das equipes, exemplo: EQ01, EQ02, EQ03,etc.
+
+
+#### Protótipo do Caso de Uso Visualizar Solicitações Pendentes
+
+
+
+
+
+
+
+
+
+----------------------------------------------------------------------------------------------
+### Visualizar Orçamentos Pendentes
+Especificação funcional do Caso de Uso <br>
+Objetivo: Permitir a visualização dos orçamentos pendentes <br>
+Ator: Fiscal de campo
+
+#### Cenário principal
+1. O sistema exibe o formulário "Orçamentos pendentes" contendo as seguintes informações:
+    - Nome da equipe (campo somente leitura)
+    - Três formulários de orçamento (campos somente leitura)
+    - Tempo desde o envio dos orçamentos (somente leitura)
+    - Status (campo somente leitura)
+    - 
+#### Cenário alternativo
+  - Nenhum cenário alternativo identificado.
+
+#### Demais requisitos
+1. O tempo desde o envio dos orçamentos pode estar disponível na forma de um cronômetro.
 
 #### Protótipo do Caso de Uso Visualizar Status dos Orçamentos
 
 
+
+
+
+
+
+----------------------------------------------------------------------------------------------
 ### Enviar APR
 Especificação funcional do Caso de Uso <br>
 Objetivo: Permitir o envio de orçamentos para deliberação <br>
