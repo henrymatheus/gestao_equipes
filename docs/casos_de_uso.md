@@ -139,6 +139,9 @@ Objetivo: Permitir o envio de orçamentos para deliberação <br>
 Ator: Fiscal de campo
 
 #### Cenário principal
+1. O sistema exibe uma lista de todas as APRS separadas por equipe e por mês:
+   - Lista de quipes (list box)
+   - lista dos meses do ano que conterão as APRS (LISTBOX)
 
 #### Cenário alternativo
 
