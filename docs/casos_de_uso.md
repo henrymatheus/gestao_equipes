@@ -60,7 +60,8 @@ Ator: Fiscal de campo
 11. O usuário informa o nome dos produtos que constam no orçamento.
 12. O usuário informa a quantidade de produtos.
 13. O usuário seleciona a opção "Salvar".
-14. O sitema salva os dados.
+14. O sistema salva os dados.
+15. O sistema exibe uma mensagem de envio bem-sucedido.
 
 
 #### Cenário alternativo 
@@ -70,7 +71,7 @@ Ator: Fiscal de campo
 - O sistema não deve permitir a inclusão de orçamentos de um mesmo fornecedor.
 - O sistema não deve permitir o envio de menos de três orçamentos.
 - O campo "Preço Total" irá conter o resultado da multiplicação "Quantidade" * "Preço" por unidade.
-- O campo "Total Geral" irá conter a soma de todos os valores da coluna "Preço Total".
+- O campo "Total Geral" irá conter a soma de todos os valores dos campos "Preço Total".
 
 #### Protótipo do Caso de Uso Enviar Orçamentos
 ![Enviar orçamentos](https://github.com/henrymatheus/gestao_equipes/blob/cd580fd9fcce77dbcb29dd12ec6324d5ecbe501d/docs/images/enviar_orcamentos.png)
@@ -81,18 +82,17 @@ Objetivo: Permitir a visualização de orçamentos pendentes para aprovação <b
 Ator: Fiscal de campo
 
 #### Cenário principal
-1. O sistema exibe o formulário "Solicitações pendentes" contendo as seguintes informações:
-    - Filtro de Equipe (combobox, opcional)
-    - Nome da equipe (campo somente leitura)
-    - Nº de solicitações pendentes (campo somente leitura)
-    - Ação "Visualizar"
+1. O sistema exibe uma lista de "Solicitações pendentes" contendo as columnas:
+    - Nome da equipe
+    - Status de aprovação
+    - Visualizar
    
 #### Cenário alternativo
 1. Não há solicitações pendentes.
 2. O sistema exibe uma mensagem na tela informando que no momento não existem solicitações pendentes.
 
 #### Demais requisitos
-1. O filtro de equipe deverá dispor dos nomes das equipes, exemplo: EQ01, EQ02, EQ03,etc.
+
 
 
 #### Protótipo do Caso de Uso Visualizar Solicitações Pendentes
