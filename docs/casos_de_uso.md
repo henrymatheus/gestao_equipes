@@ -79,7 +79,7 @@ Ator: Fiscal de campo
 ### Visualizar Solicitações Pendentes
 Especificação funcional do Caso de Uso <br>
 Objetivo: Permitir a visualização de orçamentos pendentes para aprovação <br>
-Ator: Fiscal de campo
+Ator: Líder de equipe, fiscal de campo, presidente
 
 #### Cenário principal
 1. O sistema exibe uma lista de "Solicitações pendentes" contendo as columnas:
