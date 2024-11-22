@@ -15,14 +15,14 @@
 
 
 ## Diagrama de Casos de Uso
-![Diagrama UML de Casos de Uso](https://github.com/henrymatheus/gestao_equipes/blob/0ae4ca1d0ed88de9f906ab3372656a58cf0ff3c7/docs/images/diagrama_de_casos_de_uso.jpg)
+![Diagrama UML de Casos de Uso](https://github.com/henrymatheus/gestao_equipes/blob/2dcbf9644dcc63a9a010574afa5cdb0a498709ae/docs/images/diagrama_de_casos_de_uso.jpg)
 
 
 ## Documentação dos Casos de Uso
 
 ### Página Inicial
 ### Protótipo da Página Inicial
-![Página Inicial](https://github.com/henrymatheus/gestao_equipes/blob/b0092f24517573e8d0a4fbe0b920881cb00442c5/docs/images/Fisc.png)
+![Página Inicial](https://github.com/henrymatheus/gestao_equipes/blob/ad0212bb73edd0c03aeb4b2a79185a13a87b48b5/docs/images/Fisc.png)
 ----------------------------------------------------------------------------------------------
 
 
@@ -73,7 +73,7 @@ Ator: Fiscal de campo
 - O campo "Total Geral" irá conter a soma de todos os valores da coluna "Preço Total".
 
 #### Protótipo do Caso de Uso Enviar Orçamentos
-![Enviar orçamentos](https://github.com/henrymatheus/gestao_equipes/blob/c95a29fc662d37dd62b518c2cbe36b319d52ed4c/docs/images/enviar_orcamentos.png)
+![Enviar orçamentos](https://github.com/henrymatheus/gestao_equipes/blob/cd580fd9fcce77dbcb29dd12ec6324d5ecbe501d/docs/images/enviar_orcamentos.png)
 ----------------------------------------------------------------------------------------------
 ### Visualizar Solicitações Pendentes
 Especificação funcional do Caso de Uso <br>
@@ -141,6 +141,9 @@ Objetivo: Permitir o envio de orçamentos para deliberação <br>
 Ator: Fiscal de campo
 
 #### Cenário principal
+1. O sistema exibe uma lista de todas as APRS separadas por equipe e por mês:
+   - Lista de quipes (list box)
+   - lista dos meses do ano que conterão as APRS (LISTBOX)
 
 #### Cenário alternativo
 
