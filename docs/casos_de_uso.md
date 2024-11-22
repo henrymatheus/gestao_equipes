@@ -96,7 +96,7 @@ Ator: Fiscal de campo
 
 
 #### Protótipo do Caso de Uso Visualizar Solicitações Pendentes
-
+![Visualizar-Solicitações](https://github.com/henrymatheus/gestao_equipes/blob/4ef0d7397b2b7590f4d4ebb589187922ba7624f5/docs/images/visualizar_solicitacoes.png)
 
 
 
