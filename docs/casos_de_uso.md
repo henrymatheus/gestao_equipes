@@ -85,6 +85,7 @@ Ator: Líder de equipe, fiscal de campo, presidente
 1. O sistema exibe uma lista de "Solicitações pendentes" contendo as columnas:
     - Nome da equipe
     - Status de aprovação
+    - Data da solicitação
     - Visualizar
    
 #### Cenário alternativo
