@@ -114,15 +114,17 @@ Ator: Fiscal de campo
 #### Cenário principal
 1. O sistema exibe o formulário "Orçamentos pendentes" contendo as seguintes informações:
     - Nome da equipe (campo somente leitura)
-    - Três formulários de orçamento (campos somente leitura)
+    - Três formulários de orçamento referentes à solicitação selecionada (campos somente leitura)
     - Tempo desde o envio dos orçamentos (somente leitura)
-    - Status (campo somente leitura)
-    - 
+    - Ação "Aprovar"
+  
 #### Cenário alternativo
-  - Nenhum cenário alternativo identificado.
+1. O presidente está logado e decide visualizar os orçamentos.
+2. O sistema exibe um botão de aprovação ao lado ou abaixo de cada orçamento.
 
 #### Demais requisitos
-1. O tempo desde o envio dos orçamentos pode estar disponível na forma de um cronômetro.
+1. O tempo desde o envio dos orçamentos pode estar disponível na forma de um cronômetro, ou uma contagem de dias.
+
 
 #### Protótipo do Caso de Uso Visualizar Status dos Orçamentos
 
@@ -151,21 +153,32 @@ Ator: Fiscal de campo
 ### Deliberar Orçamentos
 Especificação funcional do Caso de Uso <br>
 Objetivo: Permitir o envio de orçamentos para deliberação <br>
-Ator: Fiscal de campo
+Ator: Presidente
 
 #### Cenário principal
+1. O sistema exibe os orçamentos.
+2. Deverá a aparecer um botão "Aprovar" ao lado de cada orçamento.
+3. O presidente clica em um dos botões, aprovando, assim, um dos orçamentos.
+4. O sistema exibe uma tela de confirmação com dois botões ("Sim" e "Não"), perguntando se o usuário quer mesmo aprovar o orçamento.
+5. O usuário pressiona o botão "Sim".
+6. A janela de confirmação fecha e todos os botões de aprovação ficam desabilitados.
+7. O orçamento aprovado fica em destaque, e o botão consta "Aprovado".
+8. O orçamento aprovado é devidamente identificado no banco de dados.
+9. A solicitação em questão é devidamente indentificada no banco de dados.
 
 #### Cenário alternativo
-
+1. O usuário pressiona o botão "Não" da janela de confirmação.
+2. A página permanece sem alteração até a aprovação de algum dos orçamentos.
 #### Demais requisitos
-
+- O presidente pode aprovar apenas um orçamento.
+- Ao aprovar um orçamento, os outros dois deverão ficar desabiblitados e o botão "Aprovar" deverá contar "Aprovado" e também ficar desabilitado.
 #### Protótipo do Caso de Uso Deliberar Orçamentos
 
 
 ### Fazer o Custeio das Viagens
 Especificação funcional do Caso de Uso <br>
 Objetivo: Permitir o envio de orçamentos para deliberação <br>
-Ator: Fiscal de campo
+Ator: Líder de equipe
 
 #### Cenário principal
 
@@ -178,7 +191,7 @@ Ator: Fiscal de campo
 ### Fazer o Fluxo de Caixa das Equipes
 Especificação funcional do Caso de Uso <br>
 Objetivo: Permitir o envio de orçamentos para deliberação <br>
-Ator: Fiscal de campo
+Ator: Líder de equipe
 
 #### Cenário principal
 
@@ -191,7 +204,7 @@ Ator: Fiscal de campo
 ### Gerenciar Fiscais de Campo
 Especificação funcional do Caso de Uso <br>
 Objetivo: Permitir o envio de orçamentos para deliberação <br>
-Ator: Fiscal de campo
+Ator: Admin?
 
 #### Cenário principal
 
@@ -204,7 +217,7 @@ Ator: Fiscal de campo
 ### Gerenciar Viaturas
 Especificação funcional do Caso de Uso <br>
 Objetivo: Permitir o envio de orçamentos para deliberação <br>
-Ator: Fiscal de campo
+Ator: Admin?
 
 #### Cenário principal
 
