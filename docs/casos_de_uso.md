@@ -145,8 +145,10 @@ Ator: Fiscal de campo
 1. O sistema exibe uma lista de todas as APRS separadas por equipe e por mês:
    - Lista de quipes (list box)
    - lista dos meses do ano que conterão as APRS (LISTBOX)
+   - lista dos dias que conterão as APRS (LISTBOX)
 
 #### Cenário alternativo
+- Nenhuma APR enviada da equipe no dia
 
 #### Demais requisitos
 
