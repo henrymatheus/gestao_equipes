@@ -183,10 +183,11 @@ Ator: Presidente
 
 ### Fazer o Custeio das Viagens
 Especificação funcional do Caso de Uso <br>
-Objetivo: Permitir o envio de orçamentos para deliberação <br>
-Ator: Líder de equipe
+Objetivo: Permitir que o líder faça o custeio das equipes <br>
+Ator: Líder de equipe, coordenador, financeiro da empresa
 
 #### Cenário principal
+- O sistema permite que o líder organize a alocação das equipes durante a semana, registre valores relacionados às diárias e almoços, e gerencie possíveis reembolsos para os fiscais, os dados bancarios dos fiscais precisam constar no sistema (na parte de perfil do fiscal) para que o financeiro da empresa possa enviar os valores para cada fiscal. O coordenador precisará analisar o custeio. 
 
 #### Cenário alternativo
 
@@ -196,11 +197,11 @@ Ator: Líder de equipe
 
 ### Fazer o Fluxo de Caixa das Equipes
 Especificação funcional do Caso de Uso <br>
-Objetivo: Permitir o envio de orçamentos para deliberação <br>
+Objetivo: Permitir que o líder faça o fluxo de caixa <br>
 Ator: Líder de equipe
 
 #### Cenário principal
-
+- O sistema recebe iinformações de um formulário externo enviado pelo fiscais de campo parecido com esse <a>https://docs.google.com/forms/d/e/1FAIpQLSeU42hGWoHckKDoANlzUl4zaNzx8nDfQRg1w1d8IvrgzTipLg/viewform</a> esse formulario ira alimentar uma treeview que poderá ver quanto cada equipe gastou e qual tipo de nota ele gastou, terá informações dos depósitos repassados para a equipe e quanto eles tem no caixa atual
 #### Cenário alternativo
 
 #### Demais requisitos
